@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cframe</class>
+ <widget class="QMainWindow" name="cframe">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1208</width>
+    <height>734</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>cframe</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>30</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cliente</string>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>1151</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>10</y>
+        <width>63</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Admin</string>
+      </property>
+     </widget>
+     <widget class="QTabWidget" name="tabWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>1111</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>5</number>
+      </property>
+      <widget class="QWidget" name="tab_5">
+       <attribute name="title">
+        <string>Crear reserva</string>
+       </attribute>
+       <widget class="QDateEdit" name="de_FechaReservaAdmin">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>320</y>
+          <width>131</width>
+          <height>26</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_TelefonoReservaAdmin">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>160</y>
+          <width>113</width>
+          <height>26</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_CantidadReservaAdmin">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>220</y>
+          <width>113</width>
+          <height>26</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="bton_crear_reserva_5">
+        <property name="geometry">
+         <rect>
+          <x>490</x>
+          <y>390</y>
+          <width>111</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Crear Reserva</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_33">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>160</y>
+          <width>63</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Telefono</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_34">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>230</y>
+          <width>63</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Cantidad</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_35">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>100</y>
+          <width>63</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Nombre</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_NombreReservaAdmin">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>100</y>
+          <width>113</width>
+          <height>26</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTimeEdit" name="te_HoraReservaAdmin">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>270</y>
+          <width>131</width>
+          <height>26</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_36">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>330</y>
+          <width>63</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Fecha</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_37">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>290</y>
+          <width>63</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Hora</string>
+        </property>
+       </widget>
+       <widget class="QListWidget" name="lista_CrearAdmin">
+        <property name="geometry">
+         <rect>
+          <x>580</x>
+          <y>70</y>
+          <width>321</width>
+          <height>251</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_22">
+        <property name="geometry">
+         <rect>
+          <x>580</x>
+          <y>40</y>
+          <width>121</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Seleccione Mesa</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_6">
+       <attribute name="title">
+        <string>Modificar Reserva</string>
+       </attribute>
+       <widget class="QStackedWidget" name="stackedWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>20</y>
+          <width>961</width>
+          <height>411</height>
+         </rect>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="page_7">
+         <widget class="QLineEdit" name="le_ModNombreAdmin">
+          <property name="geometry">
+           <rect>
+            <x>290</x>
+            <y>90</y>
+            <width>113</width>
+            <height>26</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_5">
+          <property name="geometry">
+           <rect>
+            <x>60</x>
+            <y>130</y>
+            <width>93</width>
+            <height>29</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Modificar</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="le_ModCodigoAdmin">
+          <property name="geometry">
+           <rect>
+            <x>290</x>
+            <y>30</y>
+            <width>113</width>
+            <height>26</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_38">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>80</y>
+            <width>231</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Ingrese Nombre De representante</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_39">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>30</y>
+            <width>171</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Ingrese Codigo reserva</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_8">
+         <widget class="QLabel" name="label_40">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>100</y>
+            <width>63</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Telefono</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_41">
+          <property name="geometry">
+           <rect>
+            <x>200</x>
+            <y>270</y>
+            <width>63</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Fecha</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_42">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>40</y>
+            <width>63</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Nombre</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="le_NombreModificarAdmin">
+          <property name="geometry">
+           <rect>
+            <x>400</x>
+            <y>40</y>
+            <width>113</width>
+            <height>26</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="le_TelefonoModifcarAdmin">
+          <property name="geometry">
+           <rect>
+            <x>400</x>
+            <y>100</y>
+            <width>113</width>
+            <height>26</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_48">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>230</y>
+            <width>63</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Hora</string>
+          </property>
+         </widget>
+         <widget class="QDateEdit" name="de_FechaModificarAdmin">
+          <property name="geometry">
+           <rect>
+            <x>400</x>
+            <y>260</y>
+            <width>131</width>
+            <height>26</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="le_CantidadModificarAdmin">
+          <property name="geometry">
+           <rect>
+            <x>400</x>
+            <y>160</y>
+            <width>113</width>
+            <height>26</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTimeEdit" name="te_HoraModificarAdmin">
+          <property name="geometry">
+           <rect>
+            <x>400</x>
+            <y>210</y>
+            <width>131</width>
+            <height>26</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="bton_crear_reserva_6">
+          <property name="geometry">
+           <rect>
+            <x>500</x>
+            <y>330</y>
+            <width>151</width>
+            <height>29</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Modificar Reserva</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_49">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>170</y>
+            <width>63</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Cantidad</string>
+          </property>
+         </widget>
+         <widget class="QListWidget" name="lista_ModificarAdmin">
+          <property name="geometry">
+           <rect>
+            <x>550</x>
+            <y>30</y>
+            <width>381</width>
+            <height>261</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_23">
+          <property name="geometry">
+           <rect>
+            <x>550</x>
+            <y>10</y>
+            <width>121</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Seleccione Mesa</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_7">
+       <attribute name="title">
+        <string>Cancelar Reserva</string>
+       </attribute>
+       <widget class="QLineEdit" name="le_NombreCancelarAdmin">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>180</y>
+          <width>113</width>
+          <height>26</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_45">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>170</y>
+          <width>231</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Ingrese Nombre De representante</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>220</y>
+          <width>141</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Cancelar Reserva</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_46">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>120</y>
+          <width>171</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Ingrese Codigo reserva</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_CodigoCancelarAdmin">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>120</y>
+          <width>113</width>
+          <height>26</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_8">
+       <attribute name="title">
+        <string>Crear Mesa</string>
+       </attribute>
+       <widget class="QLineEdit" name="le_CrearMesaAdmin">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>40</y>
+          <width>113</width>
+          <height>26</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_47">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>40</y>
+          <width>231</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Ingrese Nombre de la mesa</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_8">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>80</y>
+          <width>93</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Crear</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_9">
+       <attribute name="title">
+        <string>Deshabilitar Mesa</string>
+       </attribute>
+       <widget class="QLabel" name="label_50">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>70</y>
+          <width>241</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Ingrese Nombre  para Deshabilitar</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_DeshabilitarMesaAdmin">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>70</y>
+          <width>113</width>
+          <height>26</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_9">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>120</y>
+          <width>93</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Deshabilitar</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_10">
+       <attribute name="title">
+        <string>Ver Reservas</string>
+       </attribute>
+       <widget class="QTextEdit" name="text_VerReservasAdmin">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>80</y>
+          <width>391</width>
+          <height>301</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_10">
+        <property name="geometry">
+         <rect>
+          <x>490</x>
+          <y>390</y>
+          <width>93</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Actualizar</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>490</x>
+          <y>30</y>
+          <width>101</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Ver Reservas</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>10</y>
+        <width>63</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Cliente</string>
+      </property>
+     </widget>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>30</y>
+        <width>1011</width>
+        <height>521</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>3</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Crear Reserva</string>
+       </attribute>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>10</y>
+          <width>111</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Crear Reserva</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_CrearNombreReserva">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>70</y>
+          <width>113</width>
+          <height>26</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_TelefonoCrearReserva">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>130</y>
+          <width>113</width>
+          <height>26</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_CantidadCrearReserva">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>190</y>
+          <width>113</width>
+          <height>26</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTimeEdit" name="te_HoraCrearReserva">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>240</y>
+          <width>131</width>
+          <height>26</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QDateEdit" name="de_FechaCrearReserva">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>290</y>
+          <width>131</width>
+          <height>26</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>70</y>
+          <width>63</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Nombre</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>130</y>
+          <width>63</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Telefono</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>200</y>
+          <width>63</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Cantidad</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>260</y>
+          <width>63</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Hora</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>300</y>
+          <width>63</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Fecha</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="bton_crear_reserva">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>360</y>
+          <width>111</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Crear Reserva</string>
+        </property>
+       </widget>
+       <widget class="QListWidget" name="lista_CrearCliente">
+        <property name="geometry">
+         <rect>
+          <x>540</x>
+          <y>90</y>
+          <width>261</width>
+          <height>241</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>550</x>
+          <y>60</y>
+          <width>121</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Seleccione Mesa</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Modificar</string>
+       </attribute>
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>30</y>
+          <width>131</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Modificar Reserva</string>
+        </property>
+       </widget>
+       <widget class="QStackedWidget" name="stackedWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>60</y>
+          <width>961</width>
+          <height>411</height>
+         </rect>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="page_3">
+         <widget class="QLineEdit" name="le_NombreModReserva">
+          <property name="geometry">
+           <rect>
+            <x>290</x>
+            <y>90</y>
+            <width>113</width>
+            <height>26</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_3">
+          <property name="geometry">
+           <rect>
+            <x>60</x>
+            <y>130</y>
+            <width>93</width>
+            <height>29</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Modificar</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="le_ModCodigoReserva">
+          <property name="geometry">
+           <rect>
+            <x>290</x>
+            <y>30</y>
+            <width>113</width>
+            <height>26</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_17">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>80</y>
+            <width>231</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Ingrese Nombre De representante</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_16">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>30</y>
+            <width>171</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Ingrese Codigo reserva</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_4">
+         <widget class="QLabel" name="label_21">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>100</y>
+            <width>63</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Telefono</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_13">
+          <property name="geometry">
+           <rect>
+            <x>200</x>
+            <y>270</y>
+            <width>63</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Fecha</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_20">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>40</y>
+            <width>63</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Nombre</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="le_NombreModificarReserva">
+          <property name="geometry">
+           <rect>
+            <x>400</x>
+            <y>40</y>
+            <width>113</width>
+            <height>26</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="le_TelefonoModificarReserva">
+          <property name="geometry">
+           <rect>
+            <x>400</x>
+            <y>100</y>
+            <width>113</width>
+            <height>26</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_18">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>230</y>
+            <width>63</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Hora</string>
+          </property>
+         </widget>
+         <widget class="QDateEdit" name="de_FechaModificarReserva">
+          <property name="geometry">
+           <rect>
+            <x>400</x>
+            <y>260</y>
+            <width>131</width>
+            <height>26</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="le_CantidadModificarReserva">
+          <property name="geometry">
+           <rect>
+            <x>400</x>
+            <y>160</y>
+            <width>113</width>
+            <height>26</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTimeEdit" name="te_HoraModificarReserva">
+          <property name="geometry">
+           <rect>
+            <x>400</x>
+            <y>210</y>
+            <width>131</width>
+            <height>26</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="bton_crear_reserva_2">
+          <property name="geometry">
+           <rect>
+            <x>500</x>
+            <y>330</y>
+            <width>151</width>
+            <height>29</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Modificar Reserva</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_19">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>170</y>
+            <width>63</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Cantidad</string>
+          </property>
+         </widget>
+         <widget class="QListWidget" name="lista_ModificarCliente">
+          <property name="geometry">
+           <rect>
+            <x>570</x>
+            <y>60</y>
+            <width>321</width>
+            <height>241</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_14">
+          <property name="geometry">
+           <rect>
+            <x>590</x>
+            <y>0</y>
+            <width>121</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Seleccione mesa</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Cancelar</string>
+       </attribute>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>412</x>
+          <y>10</y>
+          <width>121</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Cancelar Reserva</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_NombreCancelarReserva">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>160</y>
+          <width>113</width>
+          <height>26</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_43">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>150</y>
+          <width>231</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Ingrese Nombre De representante</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>200</y>
+          <width>93</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Cancelar</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_44">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>100</y>
+          <width>171</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Ingrese Codigo reserva</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_CodigoCancelarReserva">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>100</y>
+          <width>113</width>
+          <height>26</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>Consultar Mesa</string>
+       </attribute>
+       <widget class="QListWidget" name="listaConsultaMesas">
+        <property name="geometry">
+         <rect>
+          <x>265</x>
+          <y>100</y>
+          <width>481</width>
+          <height>271</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>70</y>
+          <width>131</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Mesas disponibles</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="Salir">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>30</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Salir</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Admin</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1208</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
